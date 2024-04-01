@@ -1,8 +1,15 @@
 apiVersion: backstage.io/v1alpha1
-kind: Domain
+kind: Component
 metadata:
-  name: codes
-  description: Everything about codes
+  name: NXTech
+  description: sample backstage component
+  tags:
+    - sample
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
 spec:
   type: service
-  owner: api
+  lifecycle: experimental
+  owner: core-services
