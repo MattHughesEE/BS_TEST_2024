@@ -1,7 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Domain
+kind: Component
 metadata:
-  name: codes
+  name: codesagain
   description: Everything about codes
 spec:
   owner: api
+  type: service
+  lifecycle: experimental
