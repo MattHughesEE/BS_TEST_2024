@@ -1,9 +1,8 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: System
 metadata:
-  name: codesagain
-  description: Everything about codes
+  name: flowcode-api
+  description: The system than manages codes and the redirect service
 spec:
   owner: api
-  type: service
-  lifecycle: experimental
+  domain: codes
